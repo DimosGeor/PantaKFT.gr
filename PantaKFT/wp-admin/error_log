@@ -1,0 +1,8 @@
+[11-Oct-2023 15:54:28 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, bool given in /home/pa526065/public_html/wp-admin/includes/class-wp-upgrader.php:602
+Stack trace:
+#0 /home/pa526065/public_html/wp-admin/includes/class-wp-upgrader.php(602): array_keys(false)
+#1 /home/pa526065/public_html/wp-admin/includes/class-wp-upgrader.php(882): WP_Upgrader->install_package(Array)
+#2 /home/pa526065/public_html/wp-admin/includes/class-plugin-upgrader.php(237): WP_Upgrader->run(Array)
+#3 /home/pa526065/public_html/wp-admin/update.php(74): Plugin_Upgrader->upgrade('elementor/eleme...')
+#4 {main}
+  thrown in /home/pa526065/public_html/wp-admin/includes/class-wp-upgrader.php on line 602
